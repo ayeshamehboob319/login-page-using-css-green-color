@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="green.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <h2>USER REGISTRATION SYSTEM</h2>
+        <small>Welcome to My Website</small>
+    </div>
+
+    <div id="registration-box">
+
+        <div class="heading">
+            <h2>REGISTRATION FORM</h2>
+        </div>
+
+        <form action="thankyou.html" method="get">
+
+            <div class="form-row">
+                <b>Login Name:</b>
+                <input type="text" name="loginname"
+                       placeholder="Enter login name" required>
+            </div>
+
+            <div class="form-row">
+                <b>Password:</b>
+                <input type="password" name="password"
+                       placeholder="Enter password" required>
+            </div>
+
+            <div class="form-row">
+                <b>Confirm Password:</b>
+                <input type="password" name="resetpassword"
+                       placeholder="Confirm password" required>
+            </div>
+
+            <div class="gender-row">
+                <b>Gender:</b>
+                <input type="radio" name="gender"
+                       value="Male" required> Male
+
+                <input type="radio" name="gender"
+                       value="Female"> Female
+            </div>
+
+            <div class="country-row">
+                <b>Country:</b>
+                <select name="country" required>
+                    <option value="">Select Country</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States">United States</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <b>Select Names:</b>
+                <span>
+                    <input type="checkbox" name="names"
+                           value="Ayesha"> Ayesha<br>
+
+                    <input type="checkbox" name="names"
+                           value="Sara"> Sara<br>
+
+                    <input type="checkbox" name="names"
+                           value="Hina"> Hina<br>
+
+                    <input type="checkbox" name="names"
+                           value="Zoya"> Zoya
+                </span>
+            </div>
+
+            <div class="form-row">
+                <b>Licence:</b>
+                <input type="text" name="licence"
+                       placeholder="Enter licence" required>
+            </div>
+
+            <div class="agreement-row">
+                <input type="checkbox" name="agreement"
+                       value="Agreed" required>
+                I Agree with Licence
+            </div>
+
+            <div id="register-button">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <p>Welcome to my website</p>
+    </div>
+
+</body>
+</html>
